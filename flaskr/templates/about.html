@@ -1,0 +1,47 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color:black;
+            }
+            h1 {
+                color:white;
+                text-align:center;
+            }
+            p {
+                color:white;
+                text-align:center;
+            }
+            .img-container {
+                text-align:center;
+            }
+            .but-container{
+                text-align:center;
+            }
+            .button {
+                text-align:center;
+                letter-spacing: 2px;
+                cursor:pointer;
+                padding:15px 32px;
+                font-size:medium;
+                background-color:rgb(104, 104, 104);
+            }
+        </style>
+        <title>SM Hub Web Interface - About</title>
+    </head>
+    <body>
+        <h1>About Page</h1>
+        <p>The purpose of this project is to have a personal smart home system.
+            I am aware that much better systems of this type exist, but I'm using this 
+            to test and grow my skills as a developer and hacker.<br>
+            (Please excuse my code, I'm working on it...)<br>
+            <div class=but-container>
+                <button class=button onclick="document.location='/'"> Home Page </button>
+            </div>
+        </p>
+        <div class=img-container>
+            <img src="{{url_for('static', filename='home.png')}}" alt="emblem" width=300 height=400/>
+        </div>
+    </body>
+</html>

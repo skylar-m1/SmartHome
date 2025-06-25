@@ -1,0 +1,6 @@
+env/
+__pycache__/
+constants.py
+active_projects/
+=======
+.DS_Store
